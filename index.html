@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="confetti-container"></div>
+        <div class="balloon-container"></div>
+        
+        <header>
+            <h1 class="title">Happy Birthday!</h1>
+            <p class="subtitle">To my amazing girlfriend</p>
+        </header>
+        
+        <section class="cake-section">
+            <div class="cake">
+                <div class="cake-base"></div>
+                <div class="cake-middle"></div>
+                <div class="cake-top"></div>
+                <div class="candle">
+                    <div class="flame"></div>
+                </div>
+            </div>
+            <p class="cake-text">Click the candle to make a wish!</p>
+        </section>
+        
+        <section class="message-section">
+            <div class="message">
+                <h2>To the most wonderful person in my life</h2>
+                <p>On this special day, I want to celebrate you and all the joy you bring to my life. Your smile brightens my darkest days, and your love makes every moment magical.</p>
+                <p>Thank you for being you. I'm so grateful to have you in my life.</p>
+                <p class="love">With all my love ❤️</p>
+            </div>
+        </section>
+        
+        <section class="gallery-section">
+            <h2>Our Memories</h2>
+            <div class="gallery">
+                <div class="photo" data-description="Our first date at the park">
+                    <div class="photo-inner">
+                        <img src="pic1.png" alt="Our first date">
+                        <div class="photo-info">
+                            <h3>Our first date</h3>
+                            <p>Click to view</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="photo" data-description="That amazing summer vacation by the beach">
+                    <div class="photo-inner">
+                        <img src="pic2.png" alt="Summer vacation">
+                        <div class="photo-info">
+                            <h3>Summer vacation</h3>
+                            <p>Click to view</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="photo" data-description="Our anniversary dinner at that fancy restaurant">
+                    <div class="photo-inner">
+                        <img src="pic3.png" alt="Anniversary dinner">
+                        <div class="photo-info">
+                            <h3>Anniversary dinner</h3>
+                            <p>Click to view</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="photo" data-description="That time we went hiking in the mountains">
+                    <div class="photo-inner">
+                        <img src="pic4.png" alt="Hiking trip">
+                        <div class="photo-info">
+                            <h3>Hiking trip</h3>
+                            <p>Click to view</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="photo" data-description="New Year's celebration with fireworks">
+                    <div class="photo-inner">
+                        <img src="pic5.png" alt="New Year's celebration">
+                        <div class="photo-info">
+                            <h3>New Year's</h3>
+                            <p>Click to view</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="photo" data-description="Our favorite coffee shop date">
+                    <div class="photo-inner">
+                        <img src="pic6.png" alt="Coffee shop date">
+                        <div class="photo-info">
+                            <h3>Coffee shop date</h3>
+                            <p>Click to view</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="timeline-section">
+            <h2>Our Journey Together</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>When we first met</h3>
+                        <p>The day that changed everything</p>
+                        <img src="pic7.jpeg" alt="When we first met">
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Our first date</h3>
+                        <p>I knew you were special</p>
+                        <img src="pic8.jpeg" alt="Our first date">
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>First vacation together</h3>
+                        <p>Creating memories that will last forever</p>
+                        <img src="pic9.avif" alt="First vacation">
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Today</h3>
+                        <p>Celebrating you and our love</p>
+                        <img src="pic11.jpeg" alt="Today">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="hearts-section">
+            <div class="hearts-container"></div>
+        </section>
+        
+        <footer>
+            <p>Made with ❤️ just for you</p>
+        </footer>
+    </div>
+    
+    <!-- Photo Modal -->
+    <div id="photoModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <img id="modalImage" src="/placeholder.svg" alt="Enlarged photo">
+            <div id="modalDescription"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
